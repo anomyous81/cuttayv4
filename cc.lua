@@ -1,4 +1,3 @@
-```lua
 ACTIVE_KEY = "5c4965bbf469ca914edb8395bd5a2b50"
 
 local oldRequest = http_request or request or (syn and syn.request)
@@ -46,4 +45,3 @@ local fn, err = loadstring(src)
 assert(fn, err)
 
 fn()
-```
